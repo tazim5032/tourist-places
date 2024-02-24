@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Tourist Places</title>
+    
+</head>
+<body>
+    <section id="navbar" class="mx-[2%] lg:mx-[6%] my-12">
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Destination</a></li>
+
+                            <div class="form-control">
+                                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                              </div>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-green-500 text-2xl lg:text-4xl font-extrabold">
+                        Discover <span class="text-red-500">BD</span>
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1 text-lg font-medium">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Destination</a></li>
+
+                        <div class="form-control">
+                            <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+                          </div>
+                    </ul>
+                </div>
+                <div class="navbar-end ">
+                    <a class="btn px-8 bg-cyan-400 border-3 border-[#1DD10066]"><span
+                            class="text-white text-xl font-extrabold">Login</span>
+                        <img src="./images/bus-icon.png" alt="" class="">
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+        
+    </section>
+    <section id="list" class="mx-[2%] lg:mx-[6%] my-12">
+        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+            <div>
+                <h1>Serial</h1>
+            </div>
+            <div>
+                <h1>Name</h1>
+            </div>
+            <div>
+                <h1>Address</h1>
+            </div>
+            <div>
+                <h1>Rating</h1>
+            </div>
+            <div>
+                <h1>Images</h1>
+            </div>
+            <div>
+                <h1>Action</h1>
+            </div>
+        </div>
+        <hr>
+        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+            <div>
+                <h1>1</h1>
+            </div>
+            <div>
+                <h1>St. Martin's</h1>
+            </div>
+            <div>
+                <h1>Teknaf <h1>
+            </div>
+            <div>
+                <div class="rating rating-xs">
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                </div>
+            </div>
+            <div class="h-[100px] w-[150px]">
+                <img  src="martin.PNG" alt="">
+            </div>
+            <div class="flex flex-row gap-2">
+                <button class="btn btn-success">Update</button>
+                <button class="btn btn-warning">Delete</button>
+            </div>
+        </div>
+        <hr>
+
+        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+            <div>
+                <h1>2</h1>
+            </div>
+            <div>
+                <h1>Cox's Bazar</h1>
+            </div>
+            <div>
+                <h1>Cox's Bazar</h1>
+            </div>
+            <div>
+                <div class="rating rating-xs">
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                </div>
+            </div>
+            <div class="h-[100px] w-[150px]">
+                <img  src="coxs.PNG" alt="">
+            </div>
+            <div class="flex flex-row gap-2">
+                <button class="btn btn-success">Update</button>
+                <button class="btn btn-warning">Delete</button>
+            </div>
+        </div>
+        <hr>
+
+        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+            <div>
+                <h1>3</h1>
+            </div>
+            <div>
+                <h1>Bandarban</h1>
+            </div>
+            <div>
+                <h1>Bandarban</h1>
+            </div>
+            <div>
+                <div class="rating rating-xs">
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                </div>
+            </div>
+            <div class="h-[100px] w-[150px]">
+                <img  src="bandar.PNG" alt="">
+            </div>
+            <div class="flex flex-row gap-2">
+                <button class="btn btn-success">Update</button>
+                <button class="btn btn-warning">Delete</button>
+            </div>
+        </div>
+        <hr>
+
+        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+            <div>
+                <h1>4</h1>
+            </div>
+            <div>
+                <h1>Sylhet</h1>
+            </div>
+            <div>
+                <h1>Sylhet</h1>
+            </div>
+            <div>
+                <div class="rating rating-xs">
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
+                </div>
+            </div>
+            <div class="h-[100px] w-[150px]">
+                <img  src="sylhet.PNG" alt="">
+            </div>
+            <div class="flex flex-row gap-2">
+                <button class="btn btn-success">Update</button>
+                <button class="btn btn-warning">Delete</button>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <div class="mx-[2%] lg:mx-[6%] my-12 flex flex-col justify-center items-center gap-4">
+        <form action="#" method="post" enctype="multipart/form-data" class="max-w-md mx-auto">
+            <!-- ID input -->
+            <div class="mb-4">
+                <input type="text" id="id" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter ID">
+            </div>
+        
+            <!-- Name input -->
+            <div class="mb-4">
+                <input type="text" id="id" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter Place">
+            </div>
+        
+            <!-- Address input -->
+            <div class="mb-4">
+                <input type="text" id="id" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter Address">
+            </div>
+        
+            <!-- Image input -->
+            <label for="imageInput" class="relative cursor-pointer mb-4">
+                <input type="file" id="imageInput" name="imageInput" class="hidden">
+                <img src="path/to/placeholder-image.jpg" alt="Choose Image" class="w-32 h-32 object-cover border rounded-md">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-opacity-25 transition-opacity">
+                    <span class="text-white">Choose Image</span>
+                </div>
+            </label>
+        
+            <!-- Submit button -->
+            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Submit</button>
+        
+        </form>
+           
+            
+        <button onclick="addPlace()" class="btn btn-active btn-secondary">Add Place</button>
+    </div>
+</body>
+</html>

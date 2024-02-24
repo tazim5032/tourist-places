@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equal Width Divs with Tailwind CSS</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <!-- Image input -->
+        <label for="imageInput" class="relative cursor-pointer">
+            <input type="file" id="imageInput" name="imageInput" class="hidden">
+            <img src="path/to/placeholder-image.jpg" alt="Choose Image" class="w-32 h-32 object-cover border rounded-md">
+            <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-opacity-25 transition-opacity">
+                <span class="text-white">Choose Image</span>
+            </div>
+        </label>
+    
+        <!-- Add submit button or other form elements as needed -->
+    
+    </form>
+
+</body>
+</html>
