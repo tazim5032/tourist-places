@@ -10,7 +10,7 @@
     
 </head>
 <body>
-    <section id="navbar" class="mx-[2%] lg:mx-[6%] my-12">
+    <section id="navbar" class="mx-[1%] lg:mx-[6%] my-12">
         <nav>
             <div class="navbar bg-base-100">
                 <div class="navbar-start">
@@ -28,12 +28,10 @@
                             <li><a>About</a></li>
                             <li><a>Destination</a></li>
 
-                            <div class="form-control">
-                                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
-                              </div>
+                            
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-green-500 text-2xl lg:text-4xl font-extrabold">
+                    <a class="btn btn-ghost text-green-500 text-sm bg:text-2xl lg:text-4xl font-extrabold">
                         Discover <span class="text-red-500">BD</span>
                     </a>
                 </div>
@@ -42,16 +40,12 @@
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Destination</a></li>
-
-                        <div class="form-control">
-                            <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
-                          </div>
                     </ul>
                 </div>
                 <div class="navbar-end ">
                     <a class="btn px-8 bg-cyan-400 border-3 border-[#1DD10066]"><span
-                            class="text-white text-xl font-extrabold">Login</span>
-                        <img src="./images/bus-icon.png" alt="" class="">
+                            class="text-white text-sm lg:text-xl lg:font-bold">Login</span>
+                        <img src="" alt="" class="">
                     </a>
 
                 </div>
@@ -59,10 +53,13 @@
         </nav>
         
     </section>
+    <section id="search" class="form-control w-[80%] lg:w-[20%] mx-[2%] lg:mx-[6%] my-12">
+        <input type="text" placeholder="Search" class="input input-bordered w-50  md:w-auto" />
+    </section>
     <section id="list" class="mx-[2%] lg:mx-[6%] my-12">
-        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+        <div class="grid grid-cols-6 gap-2 lg:gap-4 text-sm lg:text-2xl my-6">
             <div>
-                <h1>Serial</h1>
+                <h1>ID</h1>
             </div>
             <div>
                 <h1>Name</h1>
@@ -81,7 +78,7 @@
             </div>
         </div>
         <hr>
-        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+        <div  class="grid grid-cols-6 gap-2 lg:gap-4 text-sm lg:text-2xl my-6">
             <div>
                 <h1>1</h1>
             </div>
@@ -92,25 +89,26 @@
                 <h1>Teknaf <h1>
             </div>
             <div>
-                <div class="rating rating-xs">
+                <div class="rating rating-xs hidden">
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                 </div>
+                <div>4</div>
             </div>
-            <div class="h-[100px] w-[150px]">
+            <div class="h-[50px] w-[40px] lg:h-[100px] lg:w-[150px]">
                 <img  src="martin.PNG" alt="">
             </div>
-            <div class="flex flex-row gap-2">
-                <button class="btn btn-success">Update</button>
-                <button class="btn btn-warning">Delete</button>
+            <div class="flex flex-col lg:flex-row gap-2">
+                <button class="btn btn-success text-xs lg:text-sm">Update</button>
+                <button  class="btn btn-warning text-xs lg:text-sm bg-red-500">Delete</button>
             </div>
         </div>
         <hr>
 
-        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+        <div class="grid grid-cols-6 gap-2 lg:gap-4 text-sm lg:text-2xl my-6">
             <div>
                 <h1>2</h1>
             </div>
@@ -121,54 +119,56 @@
                 <h1>Cox's Bazar</h1>
             </div>
             <div>
-                <div class="rating rating-xs">
+                <div class="rating rating-xs hidden">
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                 </div>
+                <div>4</div>
             </div>
-            <div class="h-[100px] w-[150px]">
+            <div class="h-[50px] w-[40px] lg:h-[100px] lg:w-[150px]">
                 <img  src="coxs.PNG" alt="">
             </div>
-            <div class="flex flex-row gap-2">
-                <button class="btn btn-success">Update</button>
-                <button class="btn btn-warning">Delete</button>
+            <div class="flex flex-col lg:flex-row gap-2">
+                <button class="btn btn-success text-xs lg:text-sm">Update</button>
+                <button  class="btn btn-warning text-xs lg:text-sm bg-red-500">Delete</button>
             </div>
         </div>
         <hr>
 
-        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+        <div class="grid grid-cols-6 gap-2 lg:gap-4 text-sm lg:text-2xl my-6">
             <div>
                 <h1>3</h1>
             </div>
             <div>
-                <h1>Bandarban</h1>
+                <h1>Feni</h1>
             </div>
             <div>
-                <h1>Bandarban</h1>
+                <h1>Feni</h1>
             </div>
             <div>
-                <div class="rating rating-xs">
+                <div class="rating rating-xs hidden">
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                 </div>
+                <div>4</div>
             </div>
-            <div class="h-[100px] w-[150px]">
+            <div class="h-[50px] w-[40px] lg:h-[100px] lg:w-[150px]">
                 <img  src="bandar.PNG" alt="">
             </div>
-            <div class="flex flex-row gap-2">
-                <button class="btn btn-success">Update</button>
-                <button class="btn btn-warning">Delete</button>
+            <div class="flex flex-col lg:flex-row gap-2">
+                <button class="btn btn-success text-xs lg:text-sm">Update</button>
+                <button  class="btn btn-warning text-xs lg:text-sm bg-red-500">Delete</button>
             </div>
         </div>
         <hr>
 
-        <div class="grid grid-cols-6 gap-4 text-2xl my-6">
+        <div class="grid grid-cols-6 gap-2 lg:gap-4 text-sm lg:text-2xl my-6">
             <div>
                 <h1>4</h1>
             </div>
@@ -179,57 +179,70 @@
                 <h1>Sylhet</h1>
             </div>
             <div>
-                <div class="rating rating-xs">
+
+                <div class="rating rating-xs hidden">
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" checked />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-5" class="mask mask-star-2 bg-orange-400" />
                 </div>
+                <div>4</div>
             </div>
-            <div class="h-[100px] w-[150px]">
+            <div class="h-[50px] w-[40px] lg:h-[100px] lg:w-[150px]">
                 <img  src="sylhet.PNG" alt="">
             </div>
-            <div class="flex flex-row gap-2">
-                <button class="btn btn-success">Update</button>
-                <button class="btn btn-warning">Delete</button>
+            <div class="flex flex-col lg:flex-row gap-2">
+                <button class="btn btn-success text-xs lg:text-sm">Update</button>
+                <button" class="btn btn-warning text-xs lg:text-sm bg-red-500">Delete</button>
             </div>
         </div>
         <hr>
+        <div id="list-table">
+
+        </div>
     </section>
-    <div class="mx-[2%] lg:mx-[6%] my-12 flex flex-col justify-center items-center gap-4">
+    <section id="add-new-place" class="mx-[2%] lg:mx-[6%] my-12 flex flex-col justify-center items-center gap-4">
+        <button onclick="goToForm()"  class="btn btn-active btn-secondary">Add New Place</button>
+    </section>
+    <div id="form" class="mx-[2%] lg:mx-[6%] my-12 flex flex-col justify-center items-center gap-4 hidden">
         <form action="#" method="post" enctype="multipart/form-data" class="max-w-md mx-auto">
             <!-- ID input -->
             <div class="mb-4">
-                <input type="text" id="id" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter ID">
+                <h1>ID</h1>
+                <input type="text" id="input-id" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter ID">
             </div>
         
             <!-- Name input -->
             <div class="mb-4">
-                <input type="text" id="id" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter Place">
+                <h1>Place Name</h1>
+                <input type="text" id="input-name" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter Place">
             </div>
         
             <!-- Address input -->
             <div class="mb-4">
-                <input type="text" id="id" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter Address">
+                <h1>Place Address</h1>
+                <input type="text" id="input-address" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter Address">
+            </div>
+
+            <!-- Rating input -->
+            <div class="mb-4">
+                <h1>Add rating</h1>
+                <input type="text" id="input-rating" name="id" class="input mt-1 input-bordered w-full max-w-xs" placeholder="Enter Rating">
             </div>
         
             <!-- Image input -->
-            <label for="imageInput" class="relative cursor-pointer mb-4">
-                <input type="file" id="imageInput" name="imageInput" class="hidden">
-                <img src="path/to/placeholder-image.jpg" alt="Choose Image" class="w-32 h-32 object-cover border rounded-md">
-                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 hover:bg-opacity-25 transition-opacity">
-                    <span class="text-white">Choose Image</span>
-                </div>
-            </label>
-        
-            <!-- Submit button -->
-            <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-700">Submit</button>
+            <div>
+                <input type="file" id="image-input" name="imageInput" accept="image/*">
+            </div>
         
         </form>
            
             
-        <button onclick="addPlace()" class="btn btn-active btn-secondary">Add Place</button>
+        <button onclick="addPlace()"  class="btn btn-active btn-secondary">Add Place</button>
     </div>
+    <script src="index.js">
+
+    </script>
 </body>
 </html>
